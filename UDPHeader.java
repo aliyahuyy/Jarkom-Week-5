@@ -22,7 +22,7 @@ public class UDPHeader {
         
         System.out.println("1. SOURCE PORT NUMBER: Hexadesimal "+ UDPHeader.substring(0, 4) + " atau Desimal " + konversiHexadecimal(UDPHeader.substring(0, 4)));
         System.out.println("2. DESTINATION PORT NUMBER: Hexadesimal "+ UDPHeader.substring(4, 8) + " atau Desimal " + konversiHexadecimal(UDPHeader.substring(4, 8)));
-        System.out.println("3. TOTAL LENGHT OF THE USER DATAGRAM: Hexadesimal "+ UDPHeader.substring(8,12)+" atau total panjang UDP paket adalah " + konversiHexadecimal(UDPHeader.substring(8, 12)) +" byte");
+        System.out.println("3. TOTAL LENGHT OF THE USER DATAGRAM: Hexadesimal "+ UDPHeader.substring(8,12)+" atau total panjang UDP paket adalah " + konversiHexadecimal(UDPHeader.substring(8, 12)) +" bytes");
      }
      public static int konversiHexadecimal(String hex) {  
           
