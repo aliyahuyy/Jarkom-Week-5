@@ -1,0 +1,10 @@
+#UDP RUNNING
+
+##INPUT
+  Input UDP Header : CB84000D001C001C
+  
+  
+##OUTPUT
+  1. SOURCE PORT NUMBER: Hexadesimal CB84 atau Desimal 52100
+  2. DESTINATION PORT NUMBER: Hexadesimal 000D atau Desimal 13
+  3. TOTAL LENGHT OF THE USER DATAGRAM: Hexadesimal 001C atau total panjang UDP paket adalah 28 bytes
