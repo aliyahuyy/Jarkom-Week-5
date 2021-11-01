@@ -1,0 +1,20 @@
+#Algoritma Djikstra ketika di run
+
+##INPUT 
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int graph[][] = new int [][] {{0,4,0,0,7}, {4,0,1,2,0}, {0,1,0,6,0}, {0,2,6,0,0}, {7,0,0,0,0}};
+    
+        JarkomWeek5 p = new JarkomWeek5();
+        p.djikstra(graph,0);
+        
+    }
+    
+    
+##OUTPUT
+  jarak dari node 0 ke destination : 
+  node awal 0, jarak terpendek menuju Node 0 yaitu: 0
+  node awal 0, jarak terpendek menuju Node 1 yaitu: 4
+  node awal 0, jarak terpendek menuju Node 2 yaitu: 5
+  node awal 0, jarak terpendek menuju Node 3 yaitu: 6
+  node awal 0, jarak terpendek menuju Node 4 yaitu: 7
